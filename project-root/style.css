@@ -1,0 +1,54 @@
+.top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-bar{
+    font-size: 12px;
+    color:black;
+    background-color:#1098F7;
+    width: 100%;
+    float: left;
+    padding-left: 10px;
+}
+
+.Unity{
+    display: none;
+    position: fixed;
+    justify-self: center;
+    top: 100px;
+    width: 90%;
+    border-color: #1098F7;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.start-modal {
+    position: fixed;
+    justify-self: center;
+    z-index: 1;
+    top: 100px;
+    width: 55%;
+    background-color: #b6daf4;
+    padding: 20px;
+    border-radius: 0px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body {
+    margin: 0;
+    background-color: white
+}
