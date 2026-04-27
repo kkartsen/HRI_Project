@@ -144,6 +144,19 @@
             showsim();
         }
     }
+    function game_over(isTimeout) {
+        if (isTimeout) {
+            alert("Time's up! Please complete the survey.");
+        } else {
+            alert("Task completed successfully! Please complete the survey.");
+        }
+
+        window.open(currentAngle[1], "_blank");
+
+        if (!all_done) {
+            showsim();
+        }
+}
 
 </script>
 </body>
