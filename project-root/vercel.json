@@ -1,17 +1,17 @@
 {
-    "headers": [
-      {
-        "source": "/(.*)\\.br",
-        "headers": [
-          { "key": "Content-Encoding", "value": "br" }
-        ]
-      },
-      {
-        "source": "/(.*)\\.wasm\\.br",
-        "headers": [
-          { "key": "Content-Type", "value": "application/wasm" }
-        ]
-      }
-    ],
-    "cleanUrls": true
-  }
+  "headers": [
+    {
+      "source": "/(.*\\.br)",
+      "headers": [
+        { "key": "Content-Encoding", "value": "br" }
+      ]
+    },
+    {
+      "source": "/(.*\\.wasm\\.br)",
+      "headers": [
+        { "key": "Content-Type", "value": "application/wasm" },
+        { "key": "Content-Encoding", "value": "br" }
+      ]
+    }
+  ]
+}
